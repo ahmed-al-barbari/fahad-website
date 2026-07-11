@@ -130,24 +130,30 @@ export default function LandingPage() {
           <div className="absolute bottom-20 left-20 w-96 h-96 rounded-full bg-[#D4A373]/5 blur-[120px]" />
         </div>
 
-        {/* Header / Navbar مع أيقونة 24 ساعة */}
+        {/* Header / Navbar مع الشعار و 24/7 */}
         <header className={`fixed top-0 left-0 right-0 z-[999] transition-all duration-500 ${
           scrolled 
             ? 'bg-[rgba(15,27,40,0.95)] backdrop-blur-xl border-b border-[#D4A373]/10' 
             : ''
         }`}>
           <div className="max-w-[1200px] mx-auto px-6 py-4 flex items-center justify-between">
+            
+            {/* ===== الشعار مع الصورة ===== */}
             <Link to="/" className="flex items-center gap-2.5">
-              <Shield className="text-[#D4A373]" size={28} />
+              <img 
+                src="/logo_fahed.jpg" 
+                alt="شعار فهد العتيبي" 
+                className="h-10 w-auto rounded-full object-contain border border-[#D4A373]/30 shadow-md transition-all duration-300 hover:rotate-6 hover:scale-105"
+              />
               <span className="text-white text-xl font-extrabold tracking-tight">
                 فهد <span className="text-[#D4A373]">العتيبي</span>
               </span>
-              {/* ✅ أيقونة 24 ساعة */}
               <span className="flex items-center gap-1 bg-[#D4A373]/10 border border-[#D4A373]/30 rounded-full px-2.5 py-0.5 text-xs font-bold text-[#D4A373]">
                 <Clock size={14} />
                 24/7
               </span>
             </Link>
+
             <Link to="/home" className="flex items-center gap-2 text-[#D4A373] hover:text-white transition-colors text-sm font-semibold">
               <span>الدخول للموقع</span>
               <ChevronLeft size={16} />
@@ -185,7 +191,7 @@ export default function LandingPage() {
             وسريعة تخدم الأفراد والقطاع التجاري في المملكة العربية السعودية.
           </p>
 
-          {/* ساعات العمل (موضع بارز) */}
+          {/* ساعات العمل */}
           <div className="flex flex-wrap items-center justify-center gap-4 mb-8 text-sm">
             <span className="flex items-center gap-2 text-white/70">
               <Clock size={16} className="text-[#D4A373]" />
@@ -224,7 +230,7 @@ export default function LandingPage() {
       </section>
 
       {/* ============================================================ */}
-      {/* STATS BAR (مع ساعات العمل) */}
+      {/* STATS BAR */}
       {/* ============================================================ */}
       <section className="relative z-10 -mt-8 px-6">
         <div className="max-w-[900px] mx-auto bg-gradient-to-r from-[#1A2A3A] to-[#1A2A3A]/80 backdrop-blur-xl rounded-2xl border border-[#D4A373]/15 p-8 md:p-10 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 shadow-2xl">
@@ -296,29 +302,28 @@ export default function LandingPage() {
               </div>
             </div>
 
-            {/* ✅ صورة الميزان بدلاً من صورة الشخص */}
-            {/* ✅ صورة الميزان */}
-<div className="order-1 md:order-2 flex justify-center">
-  <div className="relative w-full max-w-[420px]">
-    <div className="absolute inset-0 bg-gradient-to-t from-[#D4A373]/20 to-transparent rounded-3xl blur-2xl" />
-    <div className="relative z-10 w-full aspect-square rounded-3xl bg-gradient-to-br from-[#D4A373]/10 to-[#D4A373]/5 border border-[#D4A373]/20 flex items-center justify-center p-8 overflow-hidden">
-      <img 
-        src="/ميزان.png" 
-        alt="ميزان العدالة - شعار قانوني" 
-        className="w-full h-full object-contain"
-      />
-    </div>
-    <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#1A2A3A] to-[#1A2A3A]/90 border border-[#D4A373]/20 rounded-2xl px-6 py-3 flex items-center gap-3 shadow-xl z-20 whitespace-nowrap">
-      <div className="w-10 h-10 rounded-full bg-[#D4A373]/20 flex items-center justify-center">
-        <Scale size={18} className="text-[#D4A373]" />
-      </div>
-      <div>
-        <div className="text-sm font-bold text-white">موثق ومسجل معتمد</div>
-        <div className="text-xs text-white/50">خدمة آمنة وسريعة</div>
-      </div>
-    </div>
-  </div>
-</div>
+            {/* ✅ صورة الميزان - المسار المعدل */}
+            <div className="order-1 md:order-2 flex justify-center">
+              <div className="relative w-full max-w-[420px]">
+                <div className="absolute inset-0 bg-gradient-to-t from-[#D4A373]/20 to-transparent rounded-3xl blur-2xl" />
+                <div className="relative z-10 w-full aspect-square rounded-3xl bg-gradient-to-br from-[#D4A373]/10 to-[#D4A373]/5 border border-[#D4A373]/20 flex items-center justify-center p-8 overflow-hidden">
+                  <img 
+                    src="/mizan.png" 
+                    alt="ميزان العدالة - شعار قانوني" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#1A2A3A] to-[#1A2A3A]/90 border border-[#D4A373]/20 rounded-2xl px-6 py-3 flex items-center gap-3 shadow-xl z-20 whitespace-nowrap">
+                  <div className="w-10 h-10 rounded-full bg-[#D4A373]/20 flex items-center justify-center">
+                    <Scale size={18} className="text-[#D4A373]" />
+                  </div>
+                  <div>
+                    <div className="text-sm font-bold text-white">موثق ومسجل معتمد</div>
+                    <div className="text-xs text-white/50">خدمة آمنة وسريعة</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
