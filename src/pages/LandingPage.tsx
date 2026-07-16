@@ -178,7 +178,7 @@ export default function LandingPage() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-[1.1] mb-6">
             <span className="text-gradient text-glow">موثق معتمد</span>
             <br />
-            <span className="text-white">من وزارة العدل السعودية</span>
+            <span className="text-white">من وزارة العدل</span>
             <br />
             <span className="text-gradient text-glow">مسجل عقاري معتمد</span>
             <br />
