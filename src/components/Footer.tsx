@@ -52,7 +52,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-white/50 text-sm">© 2025 جميع الحقوق محفوظة – الأستاذ فهد العتيبي</p>
+          <p className="text-white/50 text-sm">© 2026 جميع الحقوق محفوظة – الأستاذ فهد العتيبي</p>
           <Link
             to="/contact"
             className="flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-full text-sm font-bold transition-all hover:bg-[#128C7E] hover:-translate-y-0.5"
