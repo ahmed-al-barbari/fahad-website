@@ -610,13 +610,13 @@ export default function HomePage() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-[#25D366] text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-[#128C7E] hover:-translate-y-0.5 shadow-[0_4px_15px_rgba(37,211,102,0.3)]"
                 >
-                  <MessageCircle size={18} /> واتساب : 966551962166+
+                  <MessageCircle size={18} /> واتساب : 966551962166
                 </a>
                 <a
                   href="tel:+966551962166"
                   className="flex items-center gap-2 border border-white/20 text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white/5 hover:-translate-y-0.5"
                 >
-                  <Phone size={18} /> الهاتف : 966551962166+
+                  <Phone size={18} /> الهاتف : 966551962166
                 </a>
                 <a
                   href="mailto:Fahd.511.2020@gmail.com"

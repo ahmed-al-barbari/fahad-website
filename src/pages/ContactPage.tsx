@@ -99,7 +99,7 @@ export default function ContactPage() {
                       واتساب
                     </p>
                     <p className="text-sm text-[var(--color-brown-dark)]/60 group-hover:text-[#25D366] transition-colors">
-                      966551962166+
+                      966551962166
                     </p>
                   </div>
                 </a>
@@ -113,7 +113,7 @@ export default function ContactPage() {
                       الهاتف
                     </p>
                     <p className="text-sm text-[var(--color-brown-dark)]/60 group-hover:text-[var(--color-brown-dark)] transition-colors">
-                      966551962166+
+                      966551962166
                     </p>
                   </div>
                 </a>

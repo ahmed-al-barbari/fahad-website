@@ -28,8 +28,8 @@ export default function Footer() {
               تواصل معنا
             </h4>
             <div className="space-y-2 text-white/70 text-sm">
-              <p>واتساب : 966551962166+</p>
-              <p>الهاتف : 966551962166+</p>
+              <p>واتساب : 966551962166</p>
+              <p>الهاتف : 966551962166</p>
             </div>
           </div>
 
